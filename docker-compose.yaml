@@ -1,0 +1,23 @@
+services:
+  nginx:
+    build:
+      context: ./nginx # Path to the nginx Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - nginx-network
+
+  python-app:
+    build:
+      context: ./Python  # Path to the python Dockerfile
+    container_name: python_app
+    expose:
+      - "8000"
+    networks:
+      - nginx-network
+
+networks:
+  nginx-network:
+    driver: bridge
