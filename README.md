@@ -84,7 +84,29 @@ Select or create a key pair for SSH access, then click "Launch Instances."
 
 3. Connect to Your EC2 Instance
 Use SSH to connect to your instance. Open a terminal and run:
-
       ssh -i /path/to/your-key.pem ec2-user@<your-ec2-public-ip>
 
 Replace /path/to/your-key.pem with the path to your key file and <your-ec2-public-ip> with your instance's public IP address.
+in cmd :
+![image](https://github.com/user-attachments/assets/43a3843e-72e3-4265-adab-ad9d4ebca0dc)
+
+From this images, WE GET FOLLOWING CMD'S:
+   1. Update the Package List:
+   2. Upgrade Installed Packages:
+   3. Install th docker on Ubuntu server
+   4. Install Docker Compose
+   5. Log Out and Back In
+      - Exit the SSH session and reconnect to apply the user group changes
+![image](https://github.com/user-attachments/assets/30302863-679e-4fd8-8385-3320d43d25cc)
+
+   6. Use SCP to Copy Files: From your local machine, run:
+         scp -i "C:\Users\aarsh\Downloads\devops_internship_challenge_key.pem" -r "C:\Users\aarsh\Downloads\devops-internship-challenge-main\devops-internship-challenge-main" ubuntu@ec2-3-110-176-9.ap-south-1.compute.amazonaws.com:/home/ubuntu/
+   7.  cd /home/ubuntu/devops-internship-challenge-main
+   8.  docker-compose build
+   9.  docker-compose up -d
+![image](https://github.com/user-attachments/assets/46c96a46-b268-4575-86df-bca7277aa73f)
+   10. ![image](https://github.com/user-attachments/assets/f6f94503-3788-46a0-b47f-e01d35a6e2b9)
+   11. ![image](https://github.com/user-attachments/assets/cdcbf631-27c5-44cd-bbf6-231668c72db3)
+
+
+ 
