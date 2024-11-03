@@ -1,4 +1,5 @@
 # DevOps Assignment: Debugging and Running a Dockerized Application
+***********
 ## Build Docker images and launch containers
 In .yaml file, edit the file and add the path of the dockerFile for both nginx and python.
 - docker-compose.yaml file :
@@ -37,4 +38,17 @@ Step 3: Correct the Docker Compose File
 - Incorrect expose syntax (should be ports).
 - Typo in the network driver (bridg should be bridge).
 - Typo in the network options (compelex_option should be complex_option).
+***********
+
+## Verify the application in your browser.
+![image](https://github.com/user-attachments/assets/5e907170-b629-4320-90b7-bd58f418e834)
+
+![Screenshot (222)](https://github.com/user-attachments/assets/776cec7f-cb8b-45dd-9509-a763d6df5419)
+
+- docker-compose logs nginx 
+![image](https://github.com/user-attachments/assets/d09d9798-fbf2-43dd-9ff3-1f0f5313cd43)
+
+- docker-compose logs python-app
+![image](https://github.com/user-attachments/assets/57d939a6-5a60-4e16-abbe-07e3ccc691b2)
+
 
