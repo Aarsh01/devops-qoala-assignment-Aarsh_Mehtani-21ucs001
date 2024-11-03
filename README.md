@@ -44,6 +44,8 @@ Step 3: Correct the Docker Compose File
 ## Verify the application in your browser.
 ![image](https://github.com/user-attachments/assets/5e907170-b629-4320-90b7-bd58f418e834)
 
+- Access the application in your browser:
+   Go to http://localhost to see the output from your Flask application.
 ![Screenshot (222)](https://github.com/user-attachments/assets/776cec7f-cb8b-45dd-9509-a763d6df5419)
 
 - docker-compose logs nginx 
@@ -51,5 +53,6 @@ Step 3: Correct the Docker Compose File
 
 - docker-compose logs python-app
 ![image](https://github.com/user-attachments/assets/57d939a6-5a60-4e16-abbe-07e3ccc691b2)
+
 
 
