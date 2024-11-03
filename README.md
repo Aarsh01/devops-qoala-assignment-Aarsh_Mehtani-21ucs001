@@ -1,12 +1,12 @@
 # DevOps Assignment: Debugging and Running a Dockerized Application
 ## Build Docker images and launch containers
 In .yaml file, edit the file and add the path of the dockerFile for both nginx and python.
-docker-compose.yaml file :
+- docker-compose.yaml file :
 ![image](https://github.com/user-attachments/assets/464b26fd-e98b-47f2-9ef0-768130e60b17)
 
-In Docker Desktop ss :
+- In Docker Desktop ss :
 ![image](https://github.com/user-attachments/assets/2f60a235-21a4-4e90-8a6f-08b938dc9c1c)
-
+***********
 
 ## Debug and resolve intentional errors in the code to ensure the application runs correctly.
 Step 1: Correct the Python Dockerfile
