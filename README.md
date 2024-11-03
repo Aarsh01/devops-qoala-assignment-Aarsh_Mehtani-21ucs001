@@ -117,4 +117,11 @@ From this images, WE GET FOLLOWING CMD'S:
        ![image](https://github.com/user-attachments/assets/cdcbf631-27c5-44cd-bbf6-231668c72db3)
    13. Check the http for verification.
  *******************************************
- 
+## Summary Checklist
+- Set up Docker and Docker Compose.
+- Clone and build Docker images.
+- Debug and fix issues in code, Dockerfiles, or docker-compose.yml.
+- Start containers and verify application accessibility on port 80.
+- Upload files to a new GitHub repository and grant access to devops@qoala.id.
+- Submit screenshots and a concise report of issues and solutions.
+- Deploy on a cloud provider and share endpoint details.
