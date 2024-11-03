@@ -84,7 +84,7 @@ Select or create a key pair for SSH access, then click "Launch Instances."
 
 3. Connect to Your EC2 Instance
 Use SSH to connect to your instance. Open a terminal and run:
-***
+*
 ssh -i /path/to/your-key.pem ec2-user@<your-ec2-public-ip>
-***
+*
 Replace /path/to/your-key.pem with the path to your key file and <your-ec2-public-ip> with your instance's public IP address.
