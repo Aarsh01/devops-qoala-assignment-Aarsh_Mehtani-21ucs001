@@ -59,3 +59,32 @@ Step 3: Correct the Docker Compose File
 ![image](https://github.com/user-attachments/assets/28cc2af3-62ff-439f-9a03-5ab7ec416b9d)
 
 **** Hence Verified ****
+***********
+
+## Cloud Deployment
+### Step-by-Step Guide to Deploy on AWS
+1. Create an AWS Account
+   - Login in at AWS.
+
+2. Launch an EC2 Instance
+   - Go to the EC2 Dashboard:
+   - Navigate to the EC2 service in the AWS Management Console.
+
+Launch Instance:
+- Click on "Launch Instance."
+- Choose an Amazon Machine Image (AMI) such that "Ubuntu Server".
+- Choose an instance type.
+- Click "Next" to configure instance details.
+- Configure Security Group:
+   - Create a new security group or select an existing one.
+   - Add rules to allow HTTP (port 80) and, if necessary, HTTPS (port 443) traffic. Also, allow SSH (port 22) for remote access.
+- Launch the Instance:
+- Review your settings and click "Launch."
+Select or create a key pair for SSH access, then click "Launch Instances."
+
+3. Connect to Your EC2 Instance
+Use SSH to connect to your instance. Open a terminal and run:
+'''
+ssh -i /path/to/your-key.pem ec2-user@<your-ec2-public-ip>
+'''
+Replace /path/to/your-key.pem with the path to your key file and <your-ec2-public-ip> with your instance's public IP address.
