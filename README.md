@@ -54,5 +54,8 @@ Step 3: Correct the Docker Compose File
 - docker-compose logs python-app
 ![image](https://github.com/user-attachments/assets/57d939a6-5a60-4e16-abbe-07e3ccc691b2)
 
+- On refreshing the web page timestamp is updated and it reflected in the log.
+![image](https://github.com/user-attachments/assets/27ec6a5f-e30f-4f08-9bbb-de7641273102)
+![image](https://github.com/user-attachments/assets/28cc2af3-62ff-439f-9a03-5ab7ec416b9d)
 
-
+**** Hence Verified ****
