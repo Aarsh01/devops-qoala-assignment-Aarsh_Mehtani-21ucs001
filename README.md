@@ -104,9 +104,12 @@ From this images, WE GET FOLLOWING CMD'S:
    7.  cd /home/ubuntu/devops-internship-challenge-main
    8.  docker-compose build
    9.  docker-compose up -d
+   10.  You can check the status of your running containers with:
 ![image](https://github.com/user-attachments/assets/46c96a46-b268-4575-86df-bca7277aa73f)
-   10. ![image](https://github.com/user-attachments/assets/f6f94503-3788-46a0-b47f-e01d35a6e2b9)
-   11. ![image](https://github.com/user-attachments/assets/cdcbf631-27c5-44cd-bbf6-231668c72db3)
-
-
+   11. AWS instance image, click on the Public IPv4 DNS link 
+       ![image](https://github.com/user-attachments/assets/f6f94503-3788-46a0-b47f-e01d35a6e2b9)
+   12. Output:
+       ![image](https://github.com/user-attachments/assets/cdcbf631-27c5-44cd-bbf6-231668c72db3)
+   13. Check the http for verification.
+ *******************************************
  
