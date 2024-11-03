@@ -2,6 +2,7 @@
 ***********
 ## Build Docker images and launch containers
 In .yaml file, edit the file and add the path of the dockerFile for both nginx and python.
+
 - docker-compose.yaml file :
 ![image](https://github.com/user-attachments/assets/464b26fd-e98b-47f2-9ef0-768130e60b17)
 
